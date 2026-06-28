@@ -21,7 +21,7 @@ FLIGHTS  HOTELS  ACTIVITIES  ITINERARY
 ## Project Structure
 
 ```
-travel_planner/
+.
 ├── main.py              # Entry point with demo scenarios
 ├── supervisor.py        # Supervisor agent + subagent tool wrappers
 ├── subagents/
@@ -39,7 +39,6 @@ travel_planner/
 ## Setup
 
 ```bash
-cd travel_planner
 python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
